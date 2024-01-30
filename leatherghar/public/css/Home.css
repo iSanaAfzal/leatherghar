@@ -1,0 +1,825 @@
+html,
+body {
+    height: 100vh;
+    Width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.shop {
+    display: inline-block;
+    font-size: .85em;
+    margin-bottom: 15px;
+    margin-top: 23px;
+    margin-left: 389px;
+    color: white;
+}
+
+.head-top {
+    border: 18px;
+    background: #182e49;
+}
+
+.logo h4 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 3rem;
+    color: white;
+}
+
+.bi:hover {
+    color: white;
+    background: #528ec1;
+}
+
+
+/* 
+.search-icon {
+    position: absolute;
+    margin-top: 18px;
+    margin-left: -30px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+} */
+
+.search-box {
+    position: relative;
+    width: 55%;
+    padding: 14px;
+    background: #0f243d;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.cart {
+    line-height: 26px;
+    color: white;
+    background: #0f243d;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 5px;
+    height: 43px;
+    padding-top: 12px;
+    margin-top: -49px;
+    width: 99px;
+    border: 1px;
+    border-radius: 5px;
+    margin-left: 443px
+}
+
+.cart:hover {
+    background-color: #051931;
+}
+
+.navbar {
+    margin-top: 54px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbar li {
+    display: inline;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.search-box:hover {
+    background-color: #051931;
+}
+
+.quick h3 {
+    color: #585858;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+.quick li {
+    list-style: none;
+}
+
+.quick a {
+    color: #585858;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    padding-left: 70px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.quick h3:hover {
+    color: #0f243d;
+}
+
+.quick a:hover {
+    color: #0f243d;
+}
+
+.catlog1 {
+    margin-top: 5px;
+}
+
+.contact {
+    margin-top: 5px;
+}
+
+.home {
+    margin-top: 15px;
+}
+
+.touch h3 {
+    color: #585858;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.touch p {
+    color: #585858;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    padding-left: 30px;
+    text-decoration: none;
+    padding-top: 8px;
+}
+
+.touch h3:Hover {
+    color: #0f243d;
+}
+
+.touch p:hover {
+    color: #0f243d;
+}
+
+.news h3 {
+    color: #585858;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    padding-left: 45px;
+}
+
+.news h3:hover {
+    color: #0f243d;
+}
+
+.news p:hover {
+    color: #0f243d;
+}
+
+.news p {
+    color: #585858;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    padding-left: 45px;
+    text-decoration: none;
+    padding-top: 8px;
+}
+
+.email-address {
+    margin-left: 46px;
+    margin-top: 10px;
+    padding: 15px;
+    width: 253px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-size: 15px;
+    background-color: #dfdcdc;
+    border: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.email-address input[type=text]:focus {
+    border: none;
+}
+
+.btnstyle {
+    margin-top: 10px;
+    border: 1px solid #dfdcdc;
+    background: #dfdcdc;
+    margin-left: 0px;
+    padding: 8px;
+}
+
+.btnstyle:hover {
+    color: black;
+    background: #d8d5d5;
+}
+
+.search-box input[type=text]:focus {
+    border: none;
+}
+
+.bottomborder {
+    border-bottom: 1px solid #ececec;
+    margin-top: 57px;
+    margin-left: 94px;
+    width: 1190px;
+    margin-bottom: 20px;
+}
+
+.shoe1 {
+    margin-left: 120px;
+    margin-top: 29px;
+    transition: 0.5s all ease-in-out;
+    cursor: pointer;
+}
+
+.shoehead h1 {
+    display: block;
+    margin: 0 0 .5em;
+    line-height: 1.4;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1.333em;
+    color: #000;
+    margin-top: 30px;
+}
+
+.shoehead h1 span {
+    display: block;
+    margin: 0 0 .5em;
+    line-height: 1.4;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1.433em;
+    color: #000;
+    margin-top: 5px;
+}
+
+.shoehead label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.6;
+    color: #585858;
+}
+
+.form-select {
+    margin-top: -20px;
+    width: 251px;
+    padding: 13px;
+    border-radius: none;
+    border-radius: 1px;
+    font-size: 16px;
+    color: #585858;
+}
+
+.cartbtn {
+    margin-top: 19px;
+    padding: 6px;
+    width: 192px;
+    font-size: 17px;
+    color: #528ec1;
+    border: 3px solid #528ec1;
+    background-color: #fff;
+    font-weight: 600;
+}
+
+.details {
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 104px;
+    margin-bottom: 5px;
+}
+
+.share {
+    color: white;
+}
+
+.share:hover {
+    color: white;
+}
+
+.buybtn:hover {
+    color: white;
+    background: #5082be;
+}
+
+.twitter {
+    color: white;
+}
+
+.twitter:hover {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.facebook {
+    border: 1px solid #3b5998;
+    width: 87px;
+    padding-left: 12px;
+    background: #3b5998;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.facebook:hover {
+    background: #528ec1;
+    border: #528ec1;
+}
+
+.tweet {
+    border: 1px solid #00aced;
+    width: 87px;
+    padding-left: 12px;
+    background: #00aced;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.tweet:hover {
+    background: #4795ee;
+    border: #4795ee;
+}
+
+.pin {
+    border: 1px solid #cb2027;
+    width: 87px;
+    padding-left: 12px;
+    background: #cb2027;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.bottom {
+    border-bottom: 1px solid #ececec;
+    margin-top: 59px;
+    margin-left: 71px;
+    margin-bottom: 57px;
+    width: 1148px;
+}
+
+.Bottom2 {
+    border-bottom: 1px solid #ececec;
+    margin-top: 138px;
+    margin-left: 71px;
+    margin-bottom: 57px;
+    width: 1148px;
+}
+
+.Mustard {
+    margin-left: 44px;
+    margin-top: 107px;
+}
+
+.Mustard h2 {
+    display: block;
+    margin: 0 0 .5em;
+    line-height: 1.4;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1.333em;
+    color: #000;
+}
+
+.now {
+    display: inline-block;
+    padding: 8px 20px;
+    margin: 0;
+    line-height: 1.42;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    cursor: pointer;
+    border: 1px solid #528ec1;
+    -moz-appearance: none;
+    border-radius: 2px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: background-color .2s ease-out;
+    background-color: #528ec1;
+    color: #fff;
+}
+
+.shoe3 {
+    margin-left: 140px;
+    margin-top: 3px;
+}
+
+.Bottom2 {}
+
+.Mustard h2:hover {
+    color: #182e49;
+}
+
+.Mustard p:hover {
+    color: #182e49;
+}
+
+.Mustard p {
+    font-size: 1.15385em;
+    margin-bottom: 15px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.6;
+    color: #585858;
+}
+
+.pin:hover {
+    background: #f3676b;
+    border: #f3676b;
+}
+
+.pinterest {
+    color: white;
+}
+
+.pinterest:hover {
+    color: white;
+}
+
+.details a {
+    color: #4795ee;
+}
+
+.buybtn {
+    margin-top: 19px;
+    padding: 10px;
+    width: 192px;
+    font-size: 17px;
+    color: white;
+    border: 3px solid #528ec1;
+    background-color: #528ec1;
+    font-weight: 600;
+}
+
+.cartbtn1 {
+    margin-top: 19px;
+    padding: 6px;
+    width: 192px;
+    font-size: 19px;
+    color: #528ec1;
+    border: 3px solid #528ec1;
+    background-color: #fff;
+    font-weight: 600;
+    margin-bottom: 111px;
+    margin-top: 37px;
+}
+
+.model {
+    display: block;
+    margin: 0 0 .5em;
+    line-height: 1.4;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1.333em;
+    color: #000;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: 500;
+    color: #585858;
+}
+
+.value {
+    border-right: 1px solid grey;
+    padding-right: 7px;
+}
+
+.add {
+    border: 1px solid gray;
+    width: 79px;
+    padding: -1px;
+    border-radius: 4px;
+    padding-left: 2px;
+}
+
+.line {}
+
+.sub p {
+    margin-bottom: 18px;
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.6;
+    color: #585858;
+    margin-left: 536px;
+}
+
+.sub span {
+    font-size: 18px;
+    line-height: 1.4;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-left: 7px;
+}
+
+.taxes em {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.6;
+    color: #585858;
+    margin-left: 450px;
+    font-family: italic;
+}
+
+.shoe1:hover {
+    transform: scale(1.2);
+}
+
+.bottomborder2 {
+    border-bottom: 1px solid #ececec;
+    margin-top: 57px;
+    margin-left: 27px;
+    width: 1210px;
+}
+
+.slider {
+    margin-left: 32px;
+    margin-right: 35px;
+}
+
+.bottomborder1 {
+    border-bottom: 1px solid #ececec;
+    margin-top: 20px;
+    margin-left: 94px;
+    width: 1190px;
+    margin-bottom: 15px;
+}
+
+.footh ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.footh a {
+    text-decoration: none;
+    color: #585858;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.end p {
+    color: #585858;
+    font-size: 16px;
+}
+
+.color {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.end p:hover {
+    color: #182e49
+}
+
+.ghar {
+    margin-left: 89px;
+}
+
+.catlog12 {
+    margin-left: 20px;
+}
+
+.contact12 {
+    margin-left: 20px;
+}
+
+.footh :hover {
+    color: #182e49;
+}
+
+
+/*............Media Query............... */
+
+@media screen and (max-width:375px) {
+    /* ------Header------- */
+    .logo h4 {
+        padding-left: 79px;
+    }
+    .btnstyle {
+        font-size: 19px;
+    }
+    .endlist {
+        padding-left: 62px;
+    }
+    .shop {
+        padding-left: 319px;
+    }
+    .navbar {
+        margin-left: 34px;
+    }
+    .catlog1 {
+        margin-left: 52px;
+    }
+    .box {
+        margin-left: -261px;
+    }
+    .cart {
+        margin-top: -195px;
+    }
+    .bottomborder2 {
+        margin-left: -7px;
+        width: 337px;
+    }
+    .shoe1 {
+        padding-left: 43px;
+    }
+    .optional {
+        margin-left: 1px;
+    }
+    .bottom {
+        margin-left: 0px;
+    }
+    .Mustard {
+        margin-top: -13px;
+        margin-left: 12px;
+    }
+    .shoe3 {
+        margin-left: 25px;
+        margin-top: 35px;
+        height: 209px;
+    }
+    .Bottom2 {
+        margin-left: 5px;
+        margin-top: 69px;
+    }
+    .shoehead {
+        margin-left: 21px;
+    }
+    .slider {
+        margin-left: -11px;
+        margin-right: -11px;
+    }
+    .quick {
+        padding-left: 54px;
+        margin-bottom: -139px;
+    }
+    .touch {
+        padding-left: 73px;
+        padding-right: 43px
+    }
+    .news {
+        margin-top: -140px;
+        padding-left: 19px;
+    }
+    .email {
+        padding-left: 343px;
+    }
+    .bottomborder {
+        margin-top: -26px;
+    }
+    .power {
+        padding-left: 73px;
+    }
+    .ghar {
+        padding-left: 82px;
+    }
+    .quick ul {
+        padding-top: -2px;
+    }
+}
+
+
+/* ............Tablet screen.......... */
+
+@media screen and (max-width: 810px) {
+    .shop {
+        margin-left: 126px;
+    }
+    .logo h4 {
+        margin-top: 0px;
+        margin-left: 6px;
+    }
+    .search-box {
+        margin-left: -68px;
+        width: 277px;
+    }
+    .cart {
+        margin-left: 241px;
+    }
+    .navbar li {
+        margin-left: -27px;
+    }
+    .catlog1 {
+        margin-left: 50px;
+    }
+    .contact1 {
+        margin-left: 50px;
+    }
+    .slider {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .bottomborder2 {}
+    .shoe1 {
+        margin-left: -8px;
+    }
+    .shoehead {
+        margin-left: 17px;
+    }
+    .form-select {
+        margin-left: 17px;
+    }
+    .cartbtn {
+        margin-left: 18px;
+    }
+    .buybtn {
+        margin-left: 18px;
+    }
+    .bottom {
+        margin-left: 5px;
+    }
+    .Mustard {
+        margin-top: 5px;
+        margin-left: -22px;
+    }
+    .shoe3 {
+        margin-left: 5px;
+    }
+    .Bottom2 {
+        margin-left: 5px;
+    }
+    .quick {
+        margin-left: -108px;
+    }
+    .touch {
+        margin-left: -54px;
+    }
+    .news {
+        margin-left: -11px;
+    }
+    .email {
+        margin-top: 93px;
+        margin-left: -381px;
+    }
+    .bottomborder {
+        margin-left: -24px;
+        margin-top: -34px;
+        width: 745px;
+    }
+    .bottomborder1 {
+        margin-left: -24px;
+        width: 740px;
+    }
+    .footh {
+        margin-left: -101px;
+    }
+    .ghar {
+        margin-left: -15px;
+    }
+    .power {
+        margin-left: -5px;
+    }
+}

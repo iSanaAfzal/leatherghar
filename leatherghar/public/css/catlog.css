@@ -1,0 +1,397 @@
+        .breadcrumb {
+            margin-left: 35px;
+            margin-top: -32px;
+        }
+        
+        .homecrumb a {
+            color: #585858;
+            font-size: 16px;
+            font-family: Montserrat, sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            text-decoration: none;
+        }
+        
+        .homecrumb li {
+            color: #585858;
+            font-size: 16px;
+            font-family: Montserrat, sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            text-decoration: none;
+        }
+        
+        .border12 {
+            border-bottom: 1px solid #ececec;
+            margin-top: 20px;
+            margin-right: 19px;
+            width: 1190px;
+            margin-bottom: 20px;
+        }
+        
+        .mainrow {
+            margin-top: 1rem;
+        }
+        
+        .product h1 {
+            line-height: 1.4;
+            font-family: Montserrat, sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            text-transform: uppercase;
+            font-size: 1.733em;
+            color: #000;
+            margin-top: 70px;
+            margin-left: 38px;
+        }
+        
+        .product label {
+            font-size: 14px;
+            font-family: Montserrat, sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            line-height: 1.6;
+            color: #585858;
+            margin-top: 78px;
+            text-align: right;
+            margin-left: 425px;
+        }
+        
+        .design {
+            border-right: 1px solid #ececec;
+            height: 88%;
+            margin-right: -22px;
+        }
+        
+        .accordion-item {
+            border: none;
+            border-bottom: 1px solid #ececec;
+            width: 195px;
+            margin-left: -16px;
+        }
+        
+        .accordion-button {
+            font-size: 15px;
+            font-family: Montserrat, sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            line-height: 1.6;
+            color: #585858;
+        }
+        
+        .range label {
+            font-size: 15px;
+            font-family: Montserrat, sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            line-height: 1.6;
+            color: #585858;
+        }
+        
+        .form-select1 {
+            margin-top: 72px;
+            margin-left: 15px;
+            padding: 0px;
+            padding-right: 0px;
+            width: 228px;
+            background-color: #fff;
+            padding-right: 28px;
+            text-indent: .01px;
+            text-overflow: "";
+            cursor: pointer;
+            font-family: Montserrat, sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            color: #585858;
+            border: 1px solid #ced4da;
+        }
+        /* .accordion-button:focus {
+            box-shadow: none;
+            border-color: none;
+            background-color: white;
+        } */
+        
+        .accordion-body {
+            padding-top: 15px;
+        }
+        
+        .shoph3 {
+            color: #000;
+            font-family: Montserrat, sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            text-transform: uppercase;
+            font-size: 1.133em;
+            margin-top: 71px;
+            margin-left: 14px;
+        }
+        
+        .price1 {
+            color: #000;
+            font-family: Montserrat, sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            text-transform: uppercase;
+            font-size: 1.133em;
+            margin-left: 2px;
+            margin-top: 71px;
+        }
+        
+        .accordion {
+            margin-left: 12px;
+        }
+        
+        .list {
+            list-style: none outside;
+            margin-top: -20px;
+        }
+        
+        .li {
+            margin-bottom: .25em;
+        }
+        
+        .accordion-item,
+        .accordion-item:focus,
+        .accordion-item:active,
+        .accordion-header,
+        .accordion-header:focus,
+        .accordion-header:active,
+        .accordion-button,
+        .accordion-button:focus,
+        .accordion-button:active {
+            outline: none !important;
+            box-shadow: none;
+            background: white;
+        }
+        
+        .active-filter {
+            font-size: 15px;
+            font-family: Montserrat, sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            line-height: 1.6;
+            color: #585858;
+            margin-bottom: .25em;
+            text-decoration: none;
+        }
+        /* .column {
+    float: left;
+    width: 20%;
+    padding: 10px;
+} */
+        /* Clear floats after the columns */
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        .list-view {
+            margin-left: 17px;
+            margin-right: -1px;
+            margin-top: 75px;
+            padding: 4px;
+            border: none;
+            background: #ececec;
+        }
+        /* ************ */
+        
+        .button-group {
+            margin-top: 74px;
+            margin-left: 21px;
+            border: 1px solid #ced4da;
+            padding: 5px;
+            border-radius: 5px;
+        }
+        
+        .grid-system {
+            padding-top: 2px;
+            padding-bottom: 2px;
+            padding-left: 3px;
+            padding-right: 3px;
+        }
+        
+        .view-group {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            padding-left: 0;
+            margin-bottom: 0;
+        }
+        
+        .thumbnail {
+            margin-bottom: 30px;
+            padding: 0px;
+            -webkit-border-radius: 0px;
+            -moz-border-radius: 0px;
+            border-radius: 0px;
+            border: none;
+        }
+        
+        .item.list-group-item {
+            float: none;
+            width: 100%;
+            background-color: #fff;
+            margin-bottom: 30px;
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%;
+            padding: 0 1rem;
+            border: 0;
+        }
+        
+        .item.list-group-item .img-event {
+            float: left;
+            width: 30%;
+        }
+        
+        .item.list-group-item .list-group-image {
+            margin-right: 10px;
+        }
+        
+        .list-group-image:hover {
+            background-color: grey;
+            transition: 0.4s;
+            cursor: pointer;
+            opacity: 0.5;
+        }
+        
+        .item.list-group-item .thumbnail {
+            margin-bottom: 0px;
+            display: inline-block;
+        }
+        
+        .item.list-group-item .caption {
+            float: left;
+            width: 70%;
+            margin: 0;
+        }
+        
+        .img-fluid {
+            margin-left: 43px;
+            margin-top: 18px;
+        }
+        
+        .item.list-group-item:before,
+        .item.list-group-item:after {
+            display: table;
+            content: " ";
+        }
+        
+        .item.list-group-item:after {
+            clear: both;
+        }
+        
+        .list-group-item-text {
+            color: #585858;
+            font-size: 14px;
+            font-family: Montserrat, sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            line-height: 1.6;
+        }
+        
+        .lead {
+            font-family: Montserrat, sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            text-transform: uppercase;
+            font-size: 1.533em;
+            color: #000;
+        }
+        
+        .card5img {
+            margin-left: 8px;
+        }
+        
+        .card7img {
+            margin-left: -34px;
+            margin-top: 13px;
+            height: 230px;
+        }
+        
+        @media screen and (max-width:375px) {
+            .collection {
+                padding-left: 61px;
+            }
+            .accordion-button {
+                width: 263px;
+            }
+            .accords {
+                border: none;
+                border-bottom: 1px solid #ececec;
+                width: 195px;
+            }
+            .product h1 {
+                margin-left: -50px;
+            }
+            .form-select1 {
+                width: 163px;
+            }
+            .button-group {
+                margin-top: 144px;
+            }
+            .cardimg1 {
+                margin-left: -65px;
+            }
+            .card1 {
+                margin-left: -89px
+            }
+            .cardimg2 {
+                margin-left: -120px;
+                width: 208px;
+            }
+            .cardimg3 {
+                margin-left: -92px;
+            }
+            .cardtext2 {
+                margin-left: -103px;
+            }
+            .border12 {
+                margin-left: -15px;
+                width: 355px;
+            }
+        }
+        /* .............Tablet............. */
+        
+        @media screen and (max-width:810px) {
+            .collection {
+                margin-left: -37px;
+                margin-top: -30px;
+            }
+            .design {
+                border: none;
+            }
+            .product {
+                margin-left: 87px;
+            }
+            .form-select1 {
+                margin-left: -619px;
+                margin-top: 139px;
+                padding-top: 11px;
+                padding-bottom: 18px;
+            }
+            .button-group {
+                margin-top: 144px;
+            }
+            .img-fluid {
+                margin-left: 150px;
+            }
+            .list-group-item-text {
+                margin-left: 116px;
+            }
+            .lead {
+                margin-left: 119px;
+            }
+            .accordion-item {
+                width: 176px;
+            }
+            .cardtext {
+                margin-left: 132px;
+            }
+            .lead1 {
+                margin-left: 132px;
+            }
+        }

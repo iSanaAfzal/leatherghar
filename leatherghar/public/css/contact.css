@@ -1,0 +1,200 @@
+                .breadcrumb {
+                    margin-left: 35px;
+                    margin-top: -32px;
+                }
+                
+                .homecrumb a {
+                    color: #585858;
+                    font-size: 16px;
+                    font-family: Montserrat, sans-serif;
+                    font-weight: 500;
+                    font-style: normal;
+                    text-decoration: none;
+                }
+                
+                .homecrumb li {
+                    color: #585858;
+                    font-size: 16px;
+                    font-family: Montserrat, sans-serif;
+                    font-weight: 500;
+                    font-style: normal;
+                    text-decoration: none;
+                }
+                
+                .name {
+                    margin-left: 249px;
+                    width: 760px;
+                    border-radius: 1px;
+                    font-size: 14px;
+                    font-weight: 600;
+                    padding: 8px 10px;
+                    line-height: 1.42;
+                    border: 1px solid #ececec;
+                    background-color: #5858581a;
+                    margin-top: 25px;
+                    color: #a8a4a4;
+                }
+                
+                .Email {
+                    margin-left: 249px;
+                    width: 760px;
+                    border-radius: 1px;
+                    font-size: 14px;
+                    font-weight: 600;
+                    padding: 8px 10px;
+                    line-height: 1.42;
+                    border: 1px solid #ececec;
+                    background-color: #5858581a;
+                    margin-top: 20px;
+                    color: #a8a4a4
+                }
+                
+                .phone {
+                    margin-left: 249px;
+                    width: 760px;
+                    border-radius: 1px;
+                    font-size: 14px;
+                    font-weight: 600;
+                    padding: 8px 10px;
+                    line-height: 1.42;
+                    border: 1px solid #ececec;
+                    background-color: #5858581a;
+                    margin-top: 20px;
+                    color: #a8a4a4
+                }
+                
+                .message {
+                    margin-left: 249px;
+                    width: 760px;
+                    border-radius: 1px;
+                    font-size: 14px;
+                    font-weight: 600;
+                    padding: 8px 10px;
+                    line-height: 1.42;
+                    border: 1px solid #ececec;
+                    background-color: #5858581a;
+                    margin-top: 20px;
+                    color: #a8a4a4;
+                }
+                
+                .btn-right {
+                    padding-right: 25px;
+                    padding-left: 25px;
+                    padding-bottom: 12px;
+                    padding-top: 12px;
+                    margin-top: 22px;
+                    line-height: 1.42;
+                    text-decoration: none;
+                    border: 1px solid #528ec1;
+                    text-align: center;
+                    border-radius: 2px;
+                    font-family: Montserrat, sans-serif;
+                    font-weight: 600;
+                    font-style: normal;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    transition: .2s ease-out;
+                    background-color: #528ec1;
+                    color: #fff;
+                    float: right !important;
+                    margin-right: 266px;
+                    letter-spacing: 2px;
+                    ;
+                }
+                
+                .btn-right:hover {
+                    color: white;
+                    background: #2f6fa7;
+                }
+                
+                .form h2 {
+                    display: block;
+                    margin: 0 0 .5em;
+                    line-height: 1.4;
+                    font-family: Montserrat, sans-serif;
+                    font-weight: 700;
+                    font-style: normal;
+                    text-transform: uppercase;
+                    color: #000;
+                    font-size: 1.333em;
+                    margin-top: 80px;
+                    margin-left: 250px;
+                }
+                
+                .divider {
+                    color: #585858;
+                    font-size: 16px;
+                    font-family: Montserrat, sans-serif;
+                    font-weight: 500;
+                    font-style: normal;
+                    text-decoration: none;
+                }
+                
+                .border12 {
+                    border-bottom: 1px solid #ececec;
+                    margin-top: 20px;
+                    margin-left: 19px;
+                    width: 1190px;
+                    margin-bottom: 20px;
+                }
+                /* ------------media mobile phone.......... */
+                
+                @media screen and (max-width:375px) {
+                    .breadcrum {}
+                    .form {
+                        margin-left: -73px;
+                        margin-top: -16px;
+                    }
+                    .inputs {
+                        margin-left: -80px;
+                    }
+                    #name {
+                        margin-left: 108px;
+                        width: 265px;
+                    }
+                    #Email {
+                        width: 265px;
+                    }
+                    #phone {
+                        width: 265px;
+                    }
+                    #message {
+                        width: 265px;
+                    }
+                    .btn-right {
+                        margin-right: 21px;
+                    }
+                    .border12 {}
+                }
+                /* ......Tablet Screen........ */
+                
+                @media screen and (max-width:810px) {
+                    .breadcrum {}
+                    .border12 {
+                        margin-left: -307px;
+                    }
+                    .form h2 {
+                        margin-top: 64px;
+                        margin-left: 105px;
+                    }
+                    .name {
+                        margin-left: 106px;
+                        width: 514px;
+                    }
+                    .Email {
+                        margin-left: 106px;
+                        width: 514px;
+                    }
+                    .phone {
+                        margin-left: 106px;
+                        width: 514px;
+                    }
+                    .message {
+                        margin-left: 106px;
+                        width: 514px;
+                    }
+                    .btn-right {
+                        margin-right: 53px;
+                    }
+                    .homecrumb {}
+                }
